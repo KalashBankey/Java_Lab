@@ -1,7 +1,7 @@
 class ThreadEx2 implements Runnable
 {
 	public static void main(String[] args) {
-	    ThreadEx1 obj=new ThreadEx1();
+	    ThreadEx2 obj=new ThreadEx2();
 	    Thread thread=new Thread(obj); 
 	    thread.start();
 	    System.out.println("outside thread");
