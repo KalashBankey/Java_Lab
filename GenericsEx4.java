@@ -5,7 +5,6 @@ class MyData
         i=i1;
     }
     public Integer get(){
-        System.out.println(i);
         return i;
     }
 }
@@ -14,6 +13,6 @@ public class GenericsEx4{
 	    MyData m1=new MyData();
 	    Integer i1=3;
 	    m1.set(i1);
-	    m1.get();
+	    System.out.println(m1.get());
 	}
 }
